@@ -1,2 +1,2 @@
 # EstimaTaXalcuLater
-This project is built to estimate taxes
+This project is built to estimate income taxes.
