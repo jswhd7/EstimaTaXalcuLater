@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>EstimaTaXalculater</title>
 </head>
 <body>
-
+<md-toolbar class="md-active _md _md-toolbar-transitions"> <div class="md-toolbar-tools"> <h2 class="md-headline md-margin title flex-90" flex="90"> \Estima Tax CalcuLater <span class="motto md-caption">makes your work easy</span> </h2> <a href="https://github.com/stevermeister/dutch-tax-income-calculator" flex="10" layout="row" layout-align="end center" class="layout-align-end-center layout-row flex-10"> <span class="github-alt" aria-label="Fork me on GitHub" md-labeled-by-tooltip="md-tooltip-1">  </span> </a> </div> </md-toolbar>
+    <input id="input" type="search" autocomplete="off" spellcheck="false" role="combobox" placeholder="Enter income here" aria-live="polite">
+    <input type="number" ng-model="$ctrl.salary.income" min="1" autofocus="" required="" class="md-input ng-valid-min ng-empty ng-dirty ng-valid-parse ng-invalid ng-invalid-required ng-touched" id="input_2" aria-invalid="true" style="">
 </body>
 </html>
